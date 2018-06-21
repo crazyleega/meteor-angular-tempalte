@@ -5,14 +5,13 @@ import 'angular-meteor-auth';
 import 'angular-ui-router';
 
 // App
-app = angular.module("angular-meteor", [
+app = angular.module("demo", [
   'angular-meteor',
   'angular-meteor.auth',
-  'ui.router'
-  
+  'ui.router',
 ]);
 
 
 angular.element(document).ready(function(){
-  angular.bootstrap(document, ["angular-meteor"]);
+  angular.bootstrap(document, ["demo"]);
 });
